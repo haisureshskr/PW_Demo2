@@ -7,5 +7,6 @@ test("Load Home Page", async ({ page }) => {
     await page.locator(".add-to-cart").click();
     await page.locator(".product-item").first().click();
     await expect(page.locator(".cart-count")).toHaveText("1");
+    console.log("Test Passed")
 
 })
