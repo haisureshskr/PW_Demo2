@@ -74,6 +74,10 @@ test.describe("Demoshop purchase product @product_purchase", async () => {
     // Guest checkout is disabled in the current environment
   });
 
+  test ("suresh_checkout @checkout @regression", async () => {
+    console.log("verify suresh_checkout")
+  })
+
   test.fixme('order confirmation email shows correct total @checkout', async ({ page }) => {
   // Known issue: email service is down in staging
   // Unblock after JIRA-4421
